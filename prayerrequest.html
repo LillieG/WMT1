@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Osahan Business Light - Bootstrap Template by ( Gurdeep Osahan - Web Designer )">
+	<meta name="author" content="Osahan Business Light - Bootstrap Template by ( Gurdeep Osahan - Web Designer )">
+
+	<title>Osahan Business Light - Bootstrap Template</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Animate CSS -->
+	<link href="css/animate.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-inverse osahan-header" role="navigation">
+		<a class="navbar-brand" href="index.html"><img data-wow-duration="7s" style="visibility: visible; animation-duration: 7s; animation-name: flipInY;" class="flipInY animated" src="images/logo.png" alt="logo"></a>
+		<div class="container">
+			<!-- Brand -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div>
+			<!-- nav links -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: flipInY;" class="flipInY animated">
+						<a href="index.html"><i class="fa fa-home"></i> Home</a>
+					</li>
+
+					<li data-wow-duration="4s" style="visibility: visible; animation-duration: 4s; animation-name: flipInY;" class="dropdown flipInY animated">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"> Intro<b class="caret"></b></a>
+						<ul data-wow-duration="1s" style="visibility: visible; animation-duration: 1s; animation-name: flipInY;" class="dropdown-menu flipInY animated">
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="whatwebelieve.html">What We Believe</a>
+							</li>
+							<li>
+								<a href="partnership.html">Partnership</a>
+							</li>
+							<li>
+								<a href="prayerrequest.html">Prayer Request</a>
+							</li>
+
+						</ul>
+					</li>
+
+
+					<li data-wow-duration="7s" style="visibility: visible; animation-duration: 7s; animation-name: flipInY;" class="flipInY animated">
+						<a onclick="document.donate.submit()">Donate</a>
+					</li>
+
+					<li data-wow-duration="7s" style="visibility: visible; animation-duration: 7s; animation-name: flipInY;" class="flipInY animated">
+						<a href="calendar-events.html">Calendar-Events</a>
+					</li>
+
+					<li data-wow-duration="7s" style="visibility: visible; animation-duration: 7s; animation-name: flipInY;" class="flipInY animated">
+						<a href="blog.html">Blog</a>
+					</li>
+
+					<li data-wow-duration="7s" style="visibility: visible; animation-duration: 7s; animation-name: flipInY;" class="flipInY animated">
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+
+	<!-- Page Heading/Breadcrumbs -->
+	<div class="section sub-header">
+		<div data-wow-duration="4s" style="visibility: visible; animation-duration: 4s; animation-name: bounceInRight;" class="container bounceInRight animated">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="page-header">Prayer Request
+						<small>Philippians 4:6 Let your requests be made known unto God</small>
+					</h1>
+
+					<ol class="breadcrumb">
+						<li><a href="index.html"><i class="fa fa-home"></i> Home</a>
+						</li>
+						<li class="active">Prayer Request</li>
+					</ol>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="container">
+
+		<!-- Contact Form -->
+		<!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+		<div class="row">
+			<div class="col-md-8">
+				<h2 class="page-header">Stand With Me!</h2>
+
+				<form name="sentMessage" id="contactForm" novalidate>
+					<div class="control-group form-group">
+						<div class="controls">
+							<label>Full Name:</label>
+							<input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+							<p class="help-block"></p>
+						</div>
+					</div>
+					<div class="control-group form-group">
+						<div class="controls">
+							<label>Phone Number:</label>
+							<input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+						</div>
+					</div>
+					<div class="control-group form-group">
+						<div class="controls">
+							<label>Email Address:</label>
+							<input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+						</div>
+					</div>
+					<div class="control-group form-group">
+						<div class="controls">
+							<label>Prayer Request:</label>
+							<textarea class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+						</div>
+					</div>
+					<div id="success"></div>
+					<!-- For success/fail messages -->
+					<button type="submit" class="btn btn-danger">Submit Request</button>
+				</form>
+				<br>
+			</div>
+			<!-- Contact Details Column -->
+			<div class="col-md-4">
+				<div class="Contact-Info">
+					<h2 class="page-header"><strong>Chronicles 7:14</strong></p></h2>
+					<div class="tex-contact">
+						<p>If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land..
+					</div>
+					<div class="block-contact">
+						<!--<p>Address :
+						<ul>
+							<li>
+								<i class="fa fa-map-marker"></i>
+								<span>795 Folsom Ave, Suite 600</span>
+							</li>
+						</ul></p> -->
+					</div>
+
+					<!--<div class="block-contact">
+						<p>Website :</p>
+						<ul>
+							<li>
+								<i class="fa fa-globe"></i>
+								<span>www.yourdomain.com</span>
+							</li>
+						</ul>
+					</div>	-->
+				</div>
+			</div>
+
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- Map Column -->
+
+
+
+		  <!-- Footer -->
+	<footer class="bounceInUp animated" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: bounceInUp;">
+            <div class="container">
+                <div class="row footer-widgets">
+                    <!-- Start Subscribe Widget -->
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer-widget mail-subscribe-widget">
+                            <h4>Get Notified<span class="head-line"></span></h4>
+                            <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
+                             <form class="subscribe">
+                <input type="text" placeholder="mail@example.com">
+                <input type="submit" value="Send" class="btn btn-primary">
+              </form>
+                        </div>
+                    </div>
+                    <!-- .col-md-3 -->
+                    <!-- End Subscribe Widget -->
+                    
+                    
+                    <!-- Start cite map Widget -->
+                    <div class="col-md-3 col-xs-12">
+                        <div class="footer-widget twitter-widget">
+
+                            <h4>Cite <i class="fa fa-globe"></i> Map<span class="head-line"></span></h4>
+
+                                <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                                <li><a href="about.html">About Us</a>
+                                <li><a href="calendar-events.html">Calendar-Events.html</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="partnership.html">Partnership</a></li>
+                                <li><a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=-b5_aqa2vBDE1U2vobzj1f30hf7bWYeVR453xfb9jsoIMVoetHDnYlRlQuS&dispatch=5885d80a13c0db1f8e263663d3faee8d4fe1dd75ca3bd4f11d72275b28239088”>Donate</a></li>
+                                <li><a href="my_bio.html">My Bio</a></li>
+                                <li><a href="partnership.html">Partnership</a></li>
+                                <li><a href="prayerrequest.html">Prayer Request</a></li>
+
+                        </div>
+                    </div>
+                    <!-- End Cite Map Widget -->
+                    
+                        <!-- Start Social Media Widget -->
+                        <div class="col-md-3 col-xs-12">
+                            <div class="footer-widget social-widget">
+                                <h4>Follow Us<span class="head-line"></span></h4>
+                                <ul class="social-icons">
+                                    <li>
+                                        <a href="https://www.facebook.com/wmpeyton02face" class="facebook"><img src="/images/socialmedia/facebook.png" alt="facebook" ></a>
+                                    </li>
+                                   <li>
+                                        <a href="#" class="facebook"><img src="/images/socialmedia/googleplus.png" alt="google+"></a>
+                                    </li>
+ <li>
+                                        <a href="#" class="facebook"><img src="/images/socialmedia/linkedin.png" alt="Linkedin"></a>
+                                    </li>
+                                     <li>
+                                        <a href="#" class="facebook"><img src="/images/socialmedia/youtube.png" alt="Youtube"></a>
+                                    </li>
+                                     <li>
+                                        <a href="#" class="facebook"><img src="/images/socialmedia/twitter.png" alt="Twitter"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                      
+                        <!-- End Social Media Widget -->
+                    
+                        <!-- Start Contact Widget -->
+                        <div class="col-md-3 col-xs-12">
+                            <div class="footer-widget contact-widget">
+                                <h4>Contact Us<span class="head-line"></span></h4>
+                                <ul>
+                                    <!--<li><span><i class="fa fa-map-marker"></i> Location:</span> 795 Folsom Ave, Suite 600 </li> -->
+                                    <li><span><i class="fa fa-phone"></i> Phone Number:</span>(925) 529-1948</li>
+                                    <li><span><i class="fa fa-envelope-o"></i> Email:</span> info@wandamthomasministries.org</li>
+                                    <li><span><i class="fa fa-globe"></i> Website:</span> www.wandamthomasministries.org.</li>
+                                </ul>
+                            </div>
+                            <!-- end Contact Widget -->
+                        </div>
+                    </div>
+                 
+                    <!-- Start Copyright -->
+                    <div class="copyright-section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>© 2016 Wanda M. Thomas Ministries &nbsp;&nbsp; | &nbsp;&nbsp; Designed With <i class="fa fa-heart red"></i> By<a target="_blank" href="https://www.Webologyst.com">LillieG</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                  <!-- End Copyright -->
+                </div>
+        </footer>
+		<!-- end of footer -->
+    
+    
+	
+
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- Contact Form JavaScript -->
+	<script src="js/jqBootstrapValidation.js"></script>
+	<script src="js/contact_me.js"></script>
+</body>
+
+</html>
